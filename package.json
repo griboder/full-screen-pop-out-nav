@@ -11,6 +11,7 @@
     "gulp-group-css-media-queries": "^1.2.0",
     "gulp-less": "^3.3.2",
     "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.6.1",
     "less-plugin-glob": "^2.0.1"
   },
   "scripts": {
