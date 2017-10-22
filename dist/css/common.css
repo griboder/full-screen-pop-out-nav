@@ -249,13 +249,6 @@ body.overflow-hidden {
   background-color: rgba(0, 0, 0, 0.96);
 }
 
-.primary-nav-trigger .cd-menu-text {
-  color: white;
-  text-transform: uppercase;
-  font-weight: 700;
-  display: none;
-}
-
 .primary-nav-trigger .menu-icon {
   display: inline-block;
   position: absolute;
@@ -268,7 +261,7 @@ body.overflow-hidden {
   transform: translateX(-50%) translateY(-50%);
   width: 24px;
   height: 2px;
-  background-color: white;
+  background-color: #fff;
   -webkit-transition: background-color 0.3s;
   -o-transition: background-color 0.3s;
   transition: background-color 0.3s;
@@ -280,7 +273,7 @@ body.overflow-hidden {
   width: 100%;
   height: 100%;
   position: absolute;
-  background-color: white;
+  background-color: #fff;
   right: 0;
   -webkit-transition: -webkit-transform 0.3s, top 0.3s, background-color 0s;
   -webkit-transition: top 0.3s, background-color 0s, -webkit-transform 0.3s;
@@ -304,7 +297,7 @@ body.overflow-hidden {
 
 .primary-nav-trigger .menu-icon.is-clicked:before,
 .primary-nav-trigger .menu-icon.is-clicked:after {
-  background-color: white;
+  background-color: #fff;
 }
 
 .primary-nav-trigger .menu-icon.is-clicked:before {
@@ -349,10 +342,6 @@ body.overflow-hidden {
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-  }
-
-  .primary-nav-trigger .cd-menu-text {
-    display: inline-block;
   }
 
   .primary-nav-trigger .menu-icon {
